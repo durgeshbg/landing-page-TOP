@@ -15,7 +15,7 @@ a {
 }
 #header, #footer {
     color: white;
-    background-color: rgb(108, 58, 226);
+    background-color: rgb(99, 72, 163);
     display: flex;
     height: auto;
 }
@@ -30,4 +30,35 @@ a {
 #footer {
     justify-content: center;
     align-items: center;
+}
+#section-1 {
+    background-color: rgb(150, 117, 222);
+    display: flex;
+    padding: 20px;
+    gap: 50px;
+}
+#section-1-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 500px;
+}
+#section-1-heading {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+#sign-up-1 {
+    height: 30px;
+    width: 100px;
+    border-radius: 7px;
+    color: rgb(162, 162, 251);
+    background-color: rgb(13, 13, 1);
+}
+#section-1-image {
+    display: flex;
+    background-color: rgb(166, 155, 155);
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
