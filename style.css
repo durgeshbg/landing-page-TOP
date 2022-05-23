@@ -3,6 +3,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 0px;
+    margin: 0px;
 }
 ul {
     list-style: none;
@@ -15,4 +17,13 @@ a {
     color: white;
     background-color: rgb(108, 58, 226);
     display: flex;
+    height: auto;
+}
+#header {
+    justify-content: space-between;
+    padding: 20px;
+}
+#right-links {
+    display: flex;
+    gap: 15px;
 }
