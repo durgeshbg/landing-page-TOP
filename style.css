@@ -117,3 +117,31 @@ a {
     text-align: end;
     font-size: 25px;
 }
+/* Section 4 */
+#section-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+#signup-box {
+    border: 3px solid rgb(162, 162, 251);
+    border-radius: 7px;
+    display: flex;
+    background-color: rgb(162, 162, 251);
+    gap: 40px;
+    align-items: center;
+    padding: 40px;
+}
+#sign-up-4 {
+    height: 30px;
+    width: 100px;
+    border-radius: 7px;
+    color: rgb(162, 162, 251);
+    background-color: rgb(13, 13, 1);
+}
+#section-4-heading {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
