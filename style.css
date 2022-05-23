@@ -65,12 +65,14 @@ a {
 }
 #section-1-image {
     display: flex;
-    background-color: rgb(166, 155, 155);
+    background-color: rgb(213, 207, 207);
     justify-content: center;
     align-items: center;
     padding: 10px;
     border-radius: 7px;
     border: 5px solid rgb(56, 13, 150);
+    width: 300px;
+    height: 200px;
 }
 /* Section 2 */
 #section-2-heading {
@@ -93,10 +95,25 @@ a {
     width: 250px;
     border-radius: 7px;
     border: 5px solid rgb(56, 13, 150);
-    background-color: rgb(166, 155, 155);
+    background-color: rgb(230, 224, 224);
 }
 #card-text {
     height: auto;
     width: 250px;
     text-align: center;
+}
+/* Section 3 */
+#section-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+}
+#quote {
+    font-size: 40px;
+    font-style: italic;
+}
+#author {
+    text-align: end;
+    font-size: 25px;
 }
