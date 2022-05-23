@@ -8,6 +8,11 @@ ul {
     list-style: none;
 }
 a {
-    color: rgb(148, 133, 242);
+    color: rgb(255, 255, 255);
     text-decoration: none;
+}
+#header, #footer {
+    color: white;
+    background-color: rgb(108, 58, 226);
+    display: flex;
 }
