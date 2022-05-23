@@ -13,6 +13,7 @@ a {
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
+/* Header & Footer  */
 #header, #footer {
     color: white;
     background-color: rgb(99, 72, 163);
@@ -23,6 +24,10 @@ a {
     justify-content: space-between;
     padding: 20px;
 }
+#left-links {
+    font-size: 23px;
+    font-weight: bold;
+}
 #right-links {
     display: flex;
     gap: 15px;
@@ -31,11 +36,14 @@ a {
     justify-content: center;
     align-items: center;
 }
+/* Section 1 */
 #section-1 {
     background-color: rgb(150, 117, 222);
     display: flex;
     padding: 20px;
     gap: 50px;
+    align-items: center;
+    justify-content: center;
 }
 #section-1-text {
     display: flex;
@@ -61,4 +69,34 @@ a {
     justify-content: center;
     align-items: center;
     padding: 10px;
+    border-radius: 7px;
+    border: 5px solid rgb(56, 13, 150);
+}
+/* Section 2 */
+#section-2-heading {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+#cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+#card {
+    display: flex;
+    flex-direction: column;
+}
+#box {
+    height: 250px;
+    width: 250px;
+    border-radius: 7px;
+    border: 5px solid rgb(56, 13, 150);
+    background-color: rgb(166, 155, 155);
+}
+#card-text {
+    height: auto;
+    width: 250px;
+    text-align: center;
 }
