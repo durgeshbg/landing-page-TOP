@@ -29,7 +29,8 @@ a {
 #header {
 	justify-content: space-between;
 	align-items: center;
-	padding: 20px;
+	padding: 0 16px;
+	margin: 0;
 }
 #left-links {
 	font-size: 23px;
@@ -89,7 +90,7 @@ a {
 }
 #cards {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	flex-wrap: wrap;
 	padding: 20px;
 }
@@ -133,12 +134,13 @@ a {
 }
 #signup-box {
 	border: 3px solid rgb(162, 162, 251);
+	background-color: rgb(162, 162, 251);
 	border-radius: 7px;
 	display: flex;
-	background-color: rgb(162, 162, 251);
-	gap: 40px;
 	align-items: center;
 	padding: 40px;
+	width: 60%;
+	justify-content: space-around;
 }
 #sign-up-4 {
 	height: 30px;
